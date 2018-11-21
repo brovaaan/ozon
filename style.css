@@ -1,0 +1,263 @@
+ body {
+    background: url("bg.png") no-repeat;
+    background-size: 100%;
+}
+
+header {
+    width: 50%;
+    margin: 0 auto;
+}
+
+main {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.contacts {
+    position: absolute;
+    top: -0.5%;
+    right: 25%;
+    font-size: 1vw;
+    color: #ffffff;
+}
+
+.contacts span {
+    font-weight: bold;
+    font-size: 1.3vw;
+}
+
+.birthday-mary {
+    margin-top: 25%;
+}
+
+
+.icon-1 {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 25vw;
+    height: 4.2vw;
+    padding: 1%;
+    background-color: white;
+    color: black;
+    border-radius: 50px;
+    font-size: 1.5vw;
+}
+
+.icon-1 img {
+    margin-left: 1%;
+    width: 4vw;
+    height: 4vw;
+}
+
+.icon-1 span {
+    margin-top: 1%;
+    margin-left: 5%;
+    font-size: 1.5vw;
+    text-align: left;
+}
+
+.yellow {
+    margin-top: 2%;
+    color: #ffea00;
+    font-size: 4vw;
+    margin-bottom: 1%;
+}
+
+.birthday-mary p {
+    color: white;
+    font-size: 1vw;
+}
+
+.button {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    top: 0.4vw;
+    width: 25vw;
+    height: 3.5vw;
+    font-size: 1.5vw;
+    vertical-align: middle;
+    text-align: center;
+    border: none;
+    color: white;
+    border-radius: 100px;
+    box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.3), inset 0 0 5px rgba(255, 255, 190, 0);
+    background-color: #ff9000;
+    background-image: linear-gradient(to top, rgba(137, 137, 137, 0.08) 0%, rgba(255, 255, 255, 0.08) 8%, rgba(0, 0, 0, 0.08) 18%, rgba(0, 0, 0, 0.08) 100%);
+}
+
+.list {
+    background: url('list.png') no-repeat;
+    background-size: 100%;
+}
+
+.orange {
+    color: #ff9200;
+    font-size: 2vw;
+    font-weight: 700;
+    padding-top: 7%;
+}
+
+.sertificate {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 0.6vw;
+}
+
+.sertificate span {
+    font-weight: bold;
+}
+
+.sertificate img {
+    width: 10vw;
+    height: 10vw;
+    border-radius: 100px;
+}
+
+.presentation h2 {
+    color: white;
+    margin-top: 15%;
+    font-size: 2vw;
+    font-weight: bolder;
+}
+
+.presentation img {
+    width: 27vw;
+}
+
+.presentation p {
+    color: white;
+    font-size: 1.2vw;
+    margin-top: -2%;
+    font-weight: bold;
+}
+
+.presentation table {
+    display: flex;
+    color: white;
+    font-size: 1vw;
+    justify-content: space-around;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+.presentation td{
+    border-bottom: 1px solid #f0f0f0;
+    width: 12vw;
+    padding: 2% 0;
+    border-top: 1px solid #f0f0f0;
+}
+
+.buy h2 {
+    margin-top: 13%;
+    font-size: 2vw;
+    color: #ff9200;
+}
+
+.steps {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 1vw;
+}
+
+.buySertificate {
+    position: relative;
+}
+
+.st2 {
+    margin-left: -4%;
+}
+
+.steps img {
+    width: 8vw;
+    border-radius: 100px;
+}
+
+.st2 ul {
+    text-align: left;
+}
+
+.st2 li {
+    color: #ff8019;
+}
+
+.st2 li span {
+    color: black;
+
+}
+
+.step img {
+    width: 8vw;
+    box-shadow: none;
+}
+
+.testing {
+    position: relative;
+}
+
+.testing h2 {
+    color: color: #ff8019;
+    margin-top: 3%;
+}
+
+.button-left {
+    width: 18vw;
+    height: 5vw;
+    line-height: 20px;
+    margin-right: 5%;
+    display: inline-flex;
+    justify-content: center;
+    text-align: center;
+    border: none;
+    color: white;
+    border-radius: 100px;
+    box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.3), inset 0 0 5px rgba(255, 255, 190, 0);
+    background-color: #ff9000;
+    background-image: linear-gradient(to top, rgba(137, 137, 137, 0.08) 0%, rgba(255, 255, 255, 0.08) 8%, rgba(0, 0, 0, 0.08) 18%, rgba(0, 0, 0, 0.08) 100%);
+    font-size: 1.6vw;
+}
+.testing .white {
+    color: white;
+    margin-top: 24%;
+}
+
+.testing img {
+    margin-top: -2%;
+    margin-left: -30%;
+    width: 16vw;
+}
+
+form {
+    position: absolute;
+    top: 68%;
+    right: 13%;
+}
+
+select {
+    width: 100%;
+    height: 3vw;
+    font-size: 2vw;
+    font-weight: bold;
+    border-radius: 100px;
+    color: black;
+    background-color: #f3f3f3;
+}
+
+.testing .button-buy {
+    width: 16vw;
+    background: linear-gradient(#25a5eb 48%, #0080d0 52%, #0080d0);
+    border: none;
+    height: 6vh;
+    color: white;
+    font-size: 3vh;
+    border-radius: 100px;
+}
+
+footer {
+    font-size: 0.8vw;
+}
