@@ -152,6 +152,10 @@ main {
     border-top: 1px solid #f0f0f0;
 }
 
+.buy {
+    position: relative;
+}
+
 .buy h2 {
     margin-top: 13%;
     font-size: 2vw;
@@ -165,17 +169,8 @@ main {
     font-size: 1vw;
 }
 
-.buySertificate {
-    position: relative;
-}
-
 .st2 {
     margin-left: -4%;
-}
-
-.steps img {
-    width: 8vw;
-    border-radius: 100px;
 }
 
 .st2 ul {
@@ -189,6 +184,11 @@ main {
 .st2 li span {
     color: black;
 
+}
+
+.steps img {
+    width: 8vw;
+    border-radius: 100px;
 }
 
 .step img {
